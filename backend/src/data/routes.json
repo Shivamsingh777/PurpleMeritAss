@@ -1,0 +1,5 @@
+[
+  { "routeId": "R1", "distanceKm": 12, "trafficLevel": "High", "baseTimeMin": 60 },
+  { "routeId": "R2", "distanceKm": 7,  "trafficLevel": "Low",  "baseTimeMin": 35 },
+  { "routeId": "R3", "distanceKm": 20, "trafficLevel": "Medium", "baseTimeMin": 90 }
+]

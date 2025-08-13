@@ -1,0 +1,5 @@
+[
+  { "name": "Aman", "currentShiftMinutes": 0, "last7DaysMinutes": [420, 360, 500, 390, 450, 300, 520] },
+  { "name": "Riya", "currentShiftMinutes": 0, "last7DaysMinutes": [300, 420, 450, 360, 420, 380, 400] },
+  { "name": "Karan", "currentShiftMinutes": 0, "last7DaysMinutes": [480, 520, 510, 480, 460, 470, 300] }
+]

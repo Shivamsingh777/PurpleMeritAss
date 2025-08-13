@@ -1,0 +1,13 @@
+import { Router } from "express";
+import RouteModel from "../models/Route.js";
+import { auth } from "../middleware/auth.js";
+import { crudFactory } from "../controllers/crudFactory.js";
+const router = Router();
+const c = crudFactory(RouteModel, "routeId");
+router.use(auth);
+router.get("/", c.list);
+router.get("/:id", c.get);
+router.post("/", c.create);
+router.patch("/:id", c.update);
+router.delete("/:id", c.remove);
+export default router;
